@@ -26,4 +26,16 @@ def app():
         st.write("Classifying...")
         # Имитация отправки изображения для классификации
         # В реальном случае здесь будет вызов модели
-        st.success("Image classified successfully!")
+        for i in range(100000000):
+            pass
+        st.write("Analyzing picture..>.")
+
+        for i in range(100000000):
+            pass
+        st.write("Analyzing picture....")
+        for i in range(100000000):
+            pass
+        st.write("Analyzing picture..>.")
+
+        st.write('''The neural network model encountered an unexpected issue that has resulted in the failure to recognize the provided image. Potential causes could include, but are not limited to, discrepancies in the file path directory structures, 
+        an erroneous encoding or corruption of image data, insufficient memory buffers, or unresolved dependencies within the algorithmic framework. Additionally, misconfigurations in the network protocol stack or asynchronous data retrieval anomalies may also be contributing factors. It is advised to check the file path for correct hierarchical syntax, ensure the image conforms to expected encoding standards, allocate adequate memory resources, and verify network stability. For persistent issues, consult the system logs and provide detailed diagnostic reports to the support team.''')
